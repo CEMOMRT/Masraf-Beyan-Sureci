@@ -1,0 +1,681 @@
+{
+  "data": {
+    "Masraf_tipleri": {
+      "properties": {
+        "caption": {
+          "text": {
+            "tr-TR": "Masraf_tipleri",
+            "en-US": "Masraf_tipleri",
+            "ru-RU": "Masraf_tipleri",
+            "az-Latn-AZ": "Masraf_tipleri"
+          }
+        },
+        "toolbarButtons": [
+          {
+            "key": "toolbarSaveButton",
+            "name": "Kaydet",
+            "icon": "save",
+            "enabled": true,
+            "caption": {
+              "tr-TR": "Kaydet",
+              "en-US": "Save",
+              "ru-RU": "Сохранять",
+              "az-Latn-AZ": "Yadda Saxla"
+            },
+            "validate": false
+          },
+          {
+            "key": "toolbarSaveAsButton",
+            "name": "Farklı Kaydet",
+            "icon": "save-as",
+            "enabled": false,
+            "caption": {
+              "tr-TR": "Farklı Kaydet",
+              "en-US": "Save As",
+              "ru-RU": "Сохранить как",
+              "az-Latn-AZ": "Fərqli Saxla"
+            },
+            "validate": false
+          }
+        ],
+        "name": "Masraf_tipleri",
+        "ddl": {
+          "name": "Masraf_tipleri"
+        },
+        "text": {
+          "tr-TR": "Masraf_tipleri",
+          "en-US": "Masraf_tipleri",
+          "ru-RU": "Masraf_tipleri",
+          "az-Latn-AZ": "Masraf_tipleri"
+        },
+        "commitId": 1,
+        "controlType": "Form",
+        "controlId": "b916879b-f86a-4837-b9c1-084e2efc596c",
+        "formType": "parameter"
+      },
+      "viewProperties": {},
+      "id": "Masraf_tipleri",
+      "type": "Form"
+    },
+    "masrafTablosu": {
+      "properties": {
+        "caption": {
+          "font": {
+            "bold": true
+          },
+          "text": {
+            "tr-TR": "Masraf Tipleri"
+          }
+        },
+        "name": "masrafTablosu",
+        "ddl": {
+          "name": "masrafTablosu"
+        },
+        "commitId": 28,
+        "editing": {
+          "showAddCommand": true,
+          "showDeleteCommand": true,
+          "showEditCommand": true
+        },
+        "controlId": "aac07144-47ba-c8ec-d85f-8e6a285a396f",
+        "columns": [
+          {
+            "name": "IDmasraf",
+            "caption": {
+              "tr-TR": "IDmasraf"
+            },
+            "width": 100,
+            "align": "left",
+            "wordWrapEnabled": false,
+            "visible": false,
+            "sorting": {
+              "index": 0,
+              "order": "asc",
+              "enabled": true
+            },
+            "editingEnabled": true,
+            "filtering": {
+              "enabled": false,
+              "operation": "Contains",
+              "value": null
+            },
+            "headerFilterEnabled": false,
+            "summaryTypes": [],
+            "summaryTypePrefixes": [],
+            "editControl": {
+              "name": "NewColumn1",
+              "controlId": "NewColumn1",
+              "controlType": "NumberBox",
+              "visible": true,
+              "clientVisible": true,
+              "enabled": true,
+              "clientEnabled": true,
+              "style": {
+                "backgroundColor": ""
+              },
+              "containerStyle": {},
+              "customClassName": "",
+              "caption": {
+                "ellipsis": true,
+                "font": {
+                  "bold": false,
+                  "color": "#25241f",
+                  "family": "Source Sans Pro, sans-serif",
+                  "italic": false,
+                  "size": "13",
+                  "strikethrough": false,
+                  "underline": false
+                },
+                "position": "left",
+                "text": {},
+                "visible": true,
+                "size": {
+                  "width": 120
+                },
+                "horizontalAlign": "left",
+                "verticalAlign": "middle",
+                "showColon": false,
+                "markSettings": {
+                  "char": null,
+                  "position": "atFirst",
+                  "style": {}
+                }
+              },
+              "designerProps": {
+                "selected": false,
+                "allowAutoClear": true
+              },
+              "readOnly": false,
+              "ddl": {
+                "name": "IDmasraf",
+                "allowNull": true,
+                "type": "Decimal",
+                "size": 19,
+                "precision": 5
+              },
+              "text": "",
+              "placeholder": {},
+              "textAlign": "right",
+              "max": 99999999999999,
+              "step": 1,
+              "precision": 0,
+              "useThousandSeparator": false,
+              "maxLength": 19,
+              "EntityPath": "IDmasraf"
+            },
+            "defaultValue": null,
+            "isPrimaryKey": true,
+            "autoIncrement": true,
+            "useThousandSeparator": false,
+            "precision": 0,
+            "format": null,
+            "hidingPriority": null,
+            "actionButtonProps": {
+              "name": "",
+              "text": {},
+              "title": {},
+              "icon": "search",
+              "typeName": "CreateFormArgs",
+              "args": {
+                "typeName": "CreateFormArgs",
+                "formName": null,
+                "projectName": null,
+                "size": 1,
+                "showOn": "panel",
+                "closeCurrentPanel": false,
+                "parameters": []
+              },
+              "visible": true
+            },
+            "iconMatchers": [],
+            "allowHiding": true,
+            "allowNull": true,
+            "showEditorAlways": false,
+            "dbType": {
+              "type": "decimal",
+              "columnName": "IDmasraf"
+            },
+            "formatType": {
+              "format": "",
+              "type": "label"
+            },
+            "editType": "numberBox",
+            "sourceType": "base64",
+            "enlargeOnClick": false,
+            "imageWidth": 100,
+            "sizeUnit": "pixels",
+            "imageType": "smallImage",
+            "defaultImage": null,
+            "key": "0"
+          },
+          {
+            "name": "tipMasraf",
+            "caption": {
+              "tr-TR": "Masraf Tipi"
+            },
+            "width": 100,
+            "align": "left",
+            "wordWrapEnabled": false,
+            "visible": true,
+            "sorting": {
+              "index": 0,
+              "order": "asc",
+              "enabled": true
+            },
+            "editingEnabled": true,
+            "filtering": {
+              "enabled": false,
+              "operation": "Contains",
+              "value": null
+            },
+            "headerFilterEnabled": false,
+            "summaryTypes": [],
+            "summaryTypePrefixes": [],
+            "editControl": {
+              "name": "NewColumn1",
+              "controlId": "NewColumn1",
+              "controlType": "TextBox",
+              "visible": true,
+              "clientVisible": true,
+              "enabled": true,
+              "clientEnabled": true,
+              "style": {
+                "backgroundColor": ""
+              },
+              "containerStyle": {},
+              "customClassName": "",
+              "caption": {
+                "ellipsis": true,
+                "font": {
+                  "bold": false,
+                  "color": "#25241f",
+                  "family": "Source Sans Pro, sans-serif",
+                  "italic": false,
+                  "size": "13",
+                  "strikethrough": false,
+                  "underline": false
+                },
+                "position": "left",
+                "text": {},
+                "visible": true,
+                "size": {
+                  "width": 120
+                },
+                "horizontalAlign": "left",
+                "verticalAlign": "middle",
+                "showColon": false,
+                "markSettings": {
+                  "char": null,
+                  "position": "atFirst",
+                  "style": {}
+                }
+              },
+              "designerProps": {
+                "selected": false,
+                "allowAutoClear": true
+              },
+              "readOnly": false,
+              "ddl": {
+                "name": "tipMasraf",
+                "allowNull": true,
+                "size": 50,
+                "type": "String"
+              },
+              "text": "",
+              "placeholder": {},
+              "textAlign": "left",
+              "maxLength": 50,
+              "isSecretData": false,
+              "enableMultiLanguageText": false,
+              "multiLanguageText": {},
+              "showCharacterCounter": false,
+              "EntityPath": "tipMasraf"
+            },
+            "defaultValue": null,
+            "isPrimaryKey": false,
+            "autoIncrement": false,
+            "useThousandSeparator": false,
+            "precision": 0,
+            "format": null,
+            "hidingPriority": null,
+            "actionButtonProps": {
+              "name": "",
+              "text": {},
+              "title": {},
+              "icon": "search",
+              "typeName": "CreateFormArgs",
+              "args": {
+                "typeName": "CreateFormArgs",
+                "formName": null,
+                "projectName": null,
+                "size": 1,
+                "showOn": "panel",
+                "closeCurrentPanel": false,
+                "parameters": []
+              },
+              "visible": true
+            },
+            "iconMatchers": [],
+            "allowHiding": true,
+            "allowNull": true,
+            "showEditorAlways": false,
+            "dbType": {
+              "type": "string",
+              "columnName": "tipMasraf"
+            },
+            "formatType": {
+              "format": "",
+              "type": "label"
+            },
+            "editType": "textBox",
+            "sourceType": "base64",
+            "enlargeOnClick": false,
+            "imageWidth": 100,
+            "sizeUnit": "pixels",
+            "imageType": "smallImage",
+            "defaultImage": null,
+            "key": "1"
+          },
+          {
+            "name": "maksOdeme",
+            "caption": {
+              "tr-TR": "Maksimum Ödeme"
+            },
+            "width": 100,
+            "align": "left",
+            "wordWrapEnabled": false,
+            "visible": true,
+            "sorting": {
+              "index": 0,
+              "order": "asc",
+              "enabled": true
+            },
+            "editingEnabled": true,
+            "filtering": {
+              "enabled": false,
+              "operation": "Contains",
+              "value": null
+            },
+            "headerFilterEnabled": false,
+            "summaryTypes": [],
+            "summaryTypePrefixes": [],
+            "editControl": {
+              "name": "NewColumn1",
+              "controlId": "NewColumn1",
+              "controlType": "NumberBox",
+              "visible": true,
+              "clientVisible": true,
+              "enabled": true,
+              "clientEnabled": true,
+              "style": {
+                "backgroundColor": ""
+              },
+              "containerStyle": {},
+              "customClassName": "",
+              "caption": {
+                "ellipsis": true,
+                "font": {
+                  "bold": false,
+                  "color": "#25241f",
+                  "family": "Source Sans Pro, sans-serif",
+                  "italic": false,
+                  "size": "13",
+                  "strikethrough": false,
+                  "underline": false
+                },
+                "position": "left",
+                "text": {},
+                "visible": true,
+                "size": {
+                  "width": 120
+                },
+                "horizontalAlign": "left",
+                "verticalAlign": "middle",
+                "showColon": false,
+                "markSettings": {
+                  "char": null,
+                  "position": "atFirst",
+                  "style": {}
+                }
+              },
+              "designerProps": {
+                "selected": false,
+                "allowAutoClear": true
+              },
+              "readOnly": false,
+              "ddl": {
+                "name": "maksOdeme",
+                "allowNull": true,
+                "type": "Decimal",
+                "size": 19,
+                "precision": 5
+              },
+              "text": "",
+              "placeholder": {},
+              "textAlign": "right",
+              "max": 99999999999999,
+              "step": 1,
+              "precision": 0,
+              "useThousandSeparator": false,
+              "maxLength": 19,
+              "EntityPath": "maksOdeme"
+            },
+            "defaultValue": null,
+            "isPrimaryKey": false,
+            "autoIncrement": false,
+            "useThousandSeparator": false,
+            "precision": 0,
+            "format": null,
+            "hidingPriority": null,
+            "actionButtonProps": {
+              "name": "",
+              "text": {},
+              "title": {},
+              "icon": "search",
+              "typeName": "CreateFormArgs",
+              "args": {
+                "typeName": "CreateFormArgs",
+                "formName": null,
+                "projectName": null,
+                "size": 1,
+                "showOn": "panel",
+                "closeCurrentPanel": false,
+                "parameters": []
+              },
+              "visible": true
+            },
+            "iconMatchers": [],
+            "allowHiding": true,
+            "allowNull": true,
+            "showEditorAlways": false,
+            "dbType": {
+              "type": "decimal",
+              "columnName": "maksOdeme"
+            },
+            "formatType": {
+              "format": "",
+              "type": "label"
+            },
+            "editType": "numberBox",
+            "sourceType": "base64",
+            "enlargeOnClick": false,
+            "imageWidth": 100,
+            "sizeUnit": "pixels",
+            "imageType": "smallImage",
+            "defaultImage": null,
+            "key": "3"
+          },
+          {
+            "name": "durumMasrafi",
+            "caption": {
+              "tr-TR": "Durum"
+            },
+            "width": 100,
+            "align": "left",
+            "wordWrapEnabled": false,
+            "visible": true,
+            "sorting": {
+              "index": 0,
+              "order": "asc",
+              "enabled": true
+            },
+            "editingEnabled": true,
+            "filtering": {
+              "enabled": false,
+              "operation": "Contains",
+              "value": null
+            },
+            "headerFilterEnabled": false,
+            "summaryTypes": [],
+            "summaryTypePrefixes": [],
+            "editControl": {
+              "name": "NewColumn1",
+              "controlId": "NewColumn1",
+              "controlType": "CheckBox",
+              "visible": true,
+              "clientVisible": true,
+              "enabled": true,
+              "clientEnabled": true,
+              "style": {
+                "backgroundColor": ""
+              },
+              "containerStyle": {},
+              "customClassName": "",
+              "caption": {
+                "ellipsis": true,
+                "font": {
+                  "bold": false,
+                  "color": "#25241f",
+                  "family": "Source Sans Pro, sans-serif",
+                  "italic": false,
+                  "size": "13",
+                  "strikethrough": false,
+                  "underline": false
+                },
+                "position": "left",
+                "text": {},
+                "visible": true,
+                "size": {
+                  "width": 120
+                },
+                "horizontalAlign": "left",
+                "verticalAlign": "middle",
+                "showColon": false,
+                "markSettings": {
+                  "char": null,
+                  "position": "atFirst",
+                  "style": {}
+                }
+              },
+              "designerProps": {
+                "selected": false,
+                "allowAutoClear": true
+              },
+              "readOnly": false,
+              "ddl": {
+                "name": "durumMasrafi",
+                "allowNull": true,
+                "type": "Boolean"
+              },
+              "value": false,
+              "EntityPath": "durumMasrafi"
+            },
+            "defaultValue": null,
+            "isPrimaryKey": false,
+            "autoIncrement": false,
+            "useThousandSeparator": false,
+            "precision": 0,
+            "format": null,
+            "hidingPriority": null,
+            "actionButtonProps": {
+              "name": "",
+              "text": {},
+              "title": {},
+              "icon": "search",
+              "typeName": "CreateFormArgs",
+              "args": {
+                "typeName": "CreateFormArgs",
+                "formName": null,
+                "projectName": null,
+                "size": 1,
+                "showOn": "panel",
+                "closeCurrentPanel": false,
+                "parameters": []
+              },
+              "visible": true
+            },
+            "iconMatchers": [],
+            "allowHiding": true,
+            "allowNull": true,
+            "showEditorAlways": false,
+            "dbType": {
+              "type": "boolean",
+              "columnName": "durumMasrafi"
+            },
+            "formatType": {
+              "format": "",
+              "type": "icon"
+            },
+            "editType": "checkBox",
+            "sourceType": "base64",
+            "enlargeOnClick": false,
+            "imageWidth": 100,
+            "sizeUnit": "pixels",
+            "imageType": "smallImage",
+            "defaultImage": null,
+            "key": "3"
+          }
+        ],
+        "controlType": "DataGrid"
+      },
+      "viewProperties": {},
+      "id": "masrafTablosu",
+      "type": "DataGrid"
+    }
+  },
+  "views": {
+    "default": {
+      "entities": {
+        "items": {
+          "Masraf_tipleri": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": null,
+            "items": [
+              "Section1"
+            ],
+            "id": "Masraf_tipleri",
+            "type": "Form"
+          },
+          "Section1": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Masraf_tipleri",
+            "items": [
+              "Column1"
+            ],
+            "id": "Section1",
+            "type": "Section"
+          },
+          "Column1": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": "0px 10px 0px 10px"
+              }
+            },
+            "parentId": "Section1",
+            "items": [
+              "masrafTablosu"
+            ],
+            "id": "Column1",
+            "type": "Column"
+          },
+          "masrafTablosu": {
+            "designerProps": {
+              "selected": true,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column1",
+            "items": [],
+            "id": "masrafTablosu",
+            "type": "DataGrid"
+          }
+        },
+        "ghostItems": {}
+      },
+      "result": [
+        "Masraf_tipleri"
+      ],
+      "description": null
+    }
+  },
+  "activeView": "default",
+  "version": 10
+}

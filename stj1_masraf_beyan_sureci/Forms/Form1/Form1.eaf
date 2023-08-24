@@ -1,0 +1,1743 @@
+{
+  "data": {
+    "RelatedDocuments1": {
+      "properties": {
+        "path": "Stajer Projeleri/stj_comurtag",
+        "caption": {
+          "font": {
+            "bold": true,
+            "size": 18
+          },
+          "text": {
+            "tr-TR": "Fişler"
+          }
+        },
+        "showCreateDate": true,
+        "name": "RelatedDocuments1",
+        "targetId": "65020",
+        "ddl": {
+          "name": "RelatedDocuments1"
+        },
+        "commitId": 7,
+        "controlType": "RelatedDocuments",
+        "controlId": "cb3ef616-c8b2-e2f8-88cc-9716c077d900",
+        "categories": [
+          {
+            "categoryId": "fda3c16a-6c97-f6a2-ec35-48fa9fb1dc3e",
+            "name": {
+              "tr-TR": "Varsayılan"
+            },
+            "description": {
+              "tr-TR": "Varsayılan"
+            },
+            "minFilesCount": 0,
+            "maxFilesCount": null,
+            "enabled": true
+          }
+        ]
+      },
+      "viewProperties": {},
+      "id": "RelatedDocuments1",
+      "type": "RelatedDocuments"
+    },
+    "Header1": {
+      "properties": {
+        "caption": {
+          "font": {
+            "bold": true,
+            "size": 25
+          },
+          "text": {
+            "tr-TR": "Header1"
+          }
+        },
+        "name": "Header1",
+        "ddl": {
+          "name": "Header1"
+        },
+        "text": {
+          "tr-TR": "MASRAF BEYAN SÜRECİ",
+          "en-US": "Header1"
+        },
+        "font": {
+          "color": "rgb(121, 173, 229)",
+          "size": 25
+        },
+        "commitId": 46,
+        "controlType": "Header",
+        "title": {
+          "tr-TR": "Header1"
+        },
+        "controlId": "8f6fdecb-eea2-ee88-c65b-b94fe688099c"
+      },
+      "viewProperties": {},
+      "id": "Header1",
+      "type": "Header"
+    },
+    "DocumentMetadata1": {
+      "properties": {
+        "caption": {
+          "font": {
+            "bold": true
+          },
+          "text": {
+            "tr-TR": "Döküman ID"
+          }
+        },
+        "ddl": {
+          "name": "DocumentMetadata1"
+        },
+        "pullNumberOnStart": true,
+        "pullNewNumber": false,
+        "name": "DocumentMetadata1",
+        "controlId": "f7d68748-aaf6-5706-66c8-de77b3320efe",
+        "commitId": 9,
+        "controlType": "DocumentMetadata"
+      },
+      "viewProperties": {},
+      "id": "DocumentMetadata1",
+      "type": "DocumentMetadata"
+    },
+    "DocumentMetadata2": {
+      "properties": {
+        "caption": {
+          "font": {
+            "bold": true
+          },
+          "text": {
+            "tr-TR": "Döküman Tarihi"
+          }
+        },
+        "ddl": {
+          "name": "DocumentMetadata2"
+        },
+        "metadataType": "CreateDate",
+        "name": "DocumentMetadata2",
+        "controlId": "9d3756d5-fff0-03f4-e49e-710c67f308f9",
+        "commitId": 6,
+        "controlType": "DocumentMetadata"
+      },
+      "viewProperties": {},
+      "id": "DocumentMetadata2",
+      "type": "DocumentMetadata"
+    },
+    "masrafBeyanTablo": {
+      "properties": {
+        "clientEvents": [
+          {
+            "name": "OnSummaryChanged",
+            "methodName": "masrafBeyanTablo_OnSummaryChanged"
+          }
+        ],
+        "dataSource": {
+          "connectionType": null,
+          "fileId": null,
+          "displayExpr": [],
+          "valueExpr": null,
+          "displayFormat": null,
+          "field": null
+        },
+        "caption": {
+          "text": {
+            "tr-TR": "DataGrid1"
+          },
+          "visible": false
+        },
+        "name": "masrafBeyanTablo",
+        "ddl": {
+          "name": "masrafBeyanTablo"
+        },
+        "toolbarActionButtons": [
+          {
+            "name": "CREATERELATIONDOCUMENT",
+            "icon": "add",
+            "text": {
+              "tr-TR": "Ekle",
+              "en-US": "Add"
+            },
+            "title": {
+              "tr-TR": "Ekle",
+              "en-US": "Add"
+            },
+            "typeName": "CreateFormArgs",
+            "visible": true,
+            "args": {
+              "typeName": "CreateFormArgs",
+              "formName": "Masraf_harcama",
+              "projectName": "stj1_masraf_beyan_sureci",
+              "view": "default"
+            },
+            "extendedArgs": {
+              "id": "1e61af7e-7be3-2c3a-218d-2c888f4b69aa"
+            },
+            "key": "0"
+          }
+        ],
+        "commitId": 51,
+        "controlType": "DataGrid",
+        "controlId": "a81a02fc-5401-985a-f8a8-86092224ff1d",
+        "columns": [
+          {
+            "name": "OPENRELATIONDOCUMENT",
+            "caption": {
+              "tr-TR": "Düzenle",
+              "en-US": "Edit"
+            },
+            "width": 100,
+            "align": "left",
+            "wordWrapEnabled": false,
+            "visible": true,
+            "sorting": {
+              "index": 0,
+              "order": "asc",
+              "enabled": true
+            },
+            "editingEnabled": false,
+            "filtering": {
+              "enabled": false,
+              "operation": "Contains",
+              "value": null
+            },
+            "headerFilterEnabled": false,
+            "summaryTypes": [],
+            "summaryTypePrefixes": [],
+            "editControl": {
+              "controlId": "OPENRELATIONDOCUMENT",
+              "name": "OPENRELATIONDOCUMENT",
+              "ddl": {
+                "name": "OPENRELATIONDOCUMENT"
+              }
+            },
+            "defaultValue": null,
+            "isPrimaryKey": false,
+            "autoIncrement": false,
+            "useThousandSeparator": false,
+            "precision": 0,
+            "format": null,
+            "hidingPriority": null,
+            "actionButtonProps": {
+              "name": "OPENRELATIONDOCUMENT",
+              "text": {
+                "tr-TR": "Düzenle",
+                "en-US": "Edit"
+              },
+              "title": {
+                "tr-TR": "Düzenle",
+                "en-US": "Edit"
+              },
+              "icon": "edit",
+              "typeName": "OpenFormArgs",
+              "args": {
+                "typeName": "OpenFormArgs",
+                "formName": null,
+                "projectName": null,
+                "size": 1,
+                "showOn": "panel",
+                "closeCurrentPanel": false,
+                "parameters": [],
+                "documentId": "[RELATIONDOCUMENTID]",
+                "editable": true
+              },
+              "visible": true
+            },
+            "iconMatchers": [],
+            "allowHiding": true,
+            "allowNull": true,
+            "showEditorAlways": false,
+            "dbType": {
+              "type": "none",
+              "columnName": "OPENRELATIONDOCUMENT"
+            },
+            "formatType": {
+              "format": "",
+              "type": "label"
+            },
+            "editType": "actionButton",
+            "sourceType": "base64",
+            "enlargeOnClick": false,
+            "imageWidth": 100,
+            "sizeUnit": "pixels",
+            "imageType": "smallImage",
+            "defaultImage": null,
+            "cellType": "actionButton",
+            "control": null,
+            "isGeneratedColumn": true,
+            "key": "0"
+          },
+          {
+            "name": "RELATIONDOCUMENTID",
+            "caption": {
+              "tr-TR": "Doküman Kimliği",
+              "en-US": "Document ID"
+            },
+            "width": 100,
+            "align": "left",
+            "wordWrapEnabled": false,
+            "visible": true,
+            "sorting": {
+              "index": 0,
+              "order": "asc",
+              "enabled": true
+            },
+            "editingEnabled": true,
+            "filtering": {
+              "enabled": false,
+              "operation": "Contains",
+              "value": null
+            },
+            "headerFilterEnabled": false,
+            "summaryTypes": [],
+            "summaryTypePrefixes": [],
+            "editControl": {
+              "name": "RELATIONDOCUMENTID",
+              "controlId": "RELATIONDOCUMENTID",
+              "controlType": "NumberBox",
+              "visible": true,
+              "clientVisible": true,
+              "enabled": true,
+              "clientEnabled": true,
+              "style": {
+                "backgroundColor": ""
+              },
+              "containerStyle": {},
+              "customClassName": "",
+              "caption": {
+                "ellipsis": true,
+                "font": {
+                  "bold": false,
+                  "color": "#25241f",
+                  "family": "Source Sans Pro, sans-serif",
+                  "italic": false,
+                  "size": "13",
+                  "strikethrough": false,
+                  "underline": false
+                },
+                "position": "left",
+                "text": {},
+                "visible": true,
+                "size": {
+                  "width": 120
+                },
+                "horizontalAlign": "left",
+                "verticalAlign": "middle",
+                "showColon": false,
+                "markSettings": {
+                  "char": null,
+                  "position": "atFirst",
+                  "style": {}
+                }
+              },
+              "designerProps": {
+                "selected": false,
+                "allowAutoClear": true
+              },
+              "readOnly": false,
+              "ddl": {
+                "name": "RELATIONDOCUMENTID",
+                "allowNull": true,
+                "type": "Decimal",
+                "size": 19,
+                "precision": 5
+              },
+              "text": "",
+              "placeholder": {},
+              "textAlign": "right",
+              "max": 99999999999999,
+              "step": 1,
+              "precision": 0,
+              "useThousandSeparator": false,
+              "maxLength": 19
+            },
+            "defaultValue": null,
+            "isPrimaryKey": true,
+            "autoIncrement": false,
+            "useThousandSeparator": false,
+            "precision": 0,
+            "format": null,
+            "hidingPriority": null,
+            "actionButtonProps": {
+              "name": "RELATIONDOCUMENTID",
+              "text": {
+                "tr-TR": "RELATIONDOCUMENTID",
+                "en-US": "RELATIONDOCUMENTID"
+              },
+              "title": {
+                "tr-TR": "RELATIONDOCUMENTID",
+                "en-US": "RELATIONDOCUMENTID"
+              },
+              "icon": "search",
+              "typeName": "CreateFormArgs",
+              "args": {
+                "typeName": "CreateFormArgs",
+                "formName": null,
+                "projectName": null,
+                "size": 1,
+                "showOn": "panel",
+                "closeCurrentPanel": false,
+                "parameters": []
+              },
+              "visible": true
+            },
+            "iconMatchers": [],
+            "allowHiding": true,
+            "allowNull": true,
+            "showEditorAlways": false,
+            "dbType": {
+              "type": "decimal",
+              "columnName": "RELATIONDOCUMENTID"
+            },
+            "formatType": {
+              "format": "",
+              "type": "label"
+            },
+            "editType": "numberBox",
+            "sourceType": "base64",
+            "enlargeOnClick": false,
+            "imageWidth": 100,
+            "sizeUnit": "pixels",
+            "imageType": "smallImage",
+            "defaultImage": null,
+            "control": null,
+            "isGeneratedColumn": true,
+            "key": "1"
+          },
+          {
+            "name": "masrafTip",
+            "caption": {
+              "tr-TR": "Masraf Tipi"
+            },
+            "width": 100,
+            "align": "left",
+            "wordWrapEnabled": false,
+            "visible": true,
+            "sorting": {
+              "index": 0,
+              "order": "asc",
+              "enabled": true
+            },
+            "editingEnabled": true,
+            "filtering": {
+              "enabled": false,
+              "operation": "Contains",
+              "value": null
+            },
+            "headerFilterEnabled": false,
+            "summaryTypes": [],
+            "summaryTypePrefixes": [],
+            "editControl": {
+              "name": "masrafTip",
+              "controlId": "masrafTip",
+              "controlType": "ComboBox",
+              "visible": true,
+              "clientVisible": true,
+              "enabled": true,
+              "clientEnabled": true,
+              "style": {
+                "backgroundColor": ""
+              },
+              "containerStyle": {},
+              "customClassName": "",
+              "caption": {
+                "ellipsis": true,
+                "font": {
+                  "bold": false,
+                  "color": "#25241f",
+                  "family": "Source Sans Pro, sans-serif",
+                  "italic": false,
+                  "size": "13",
+                  "strikethrough": false,
+                  "underline": false
+                },
+                "position": "left",
+                "text": {},
+                "visible": true,
+                "size": {
+                  "width": 120
+                },
+                "horizontalAlign": "left",
+                "verticalAlign": "middle",
+                "showColon": false,
+                "markSettings": {
+                  "char": null,
+                  "position": "atFirst",
+                  "style": {}
+                }
+              },
+              "designerProps": {
+                "selected": false,
+                "allowAutoClear": true
+              },
+              "readOnly": false,
+              "ddl": {
+                "name": "masrafTip"
+              },
+              "text": "",
+              "items": [],
+              "dataSource": {
+                "fileId": null,
+                "displayExpr": [],
+                "valueExpr": null,
+                "name": null,
+                "runAtServer": false,
+                "parameters": []
+              },
+              "valueType": "string",
+              "dataSourceType": "dynamic",
+              "decimalValuePrecision": 0,
+              "dateValueFormat": "",
+              "iconExpr": null,
+              "iconMatchers": [],
+              "allowClear": true
+            },
+            "defaultValue": null,
+            "isPrimaryKey": false,
+            "autoIncrement": false,
+            "useThousandSeparator": false,
+            "precision": 0,
+            "format": null,
+            "hidingPriority": null,
+            "actionButtonProps": {
+              "name": "",
+              "text": {},
+              "title": {},
+              "icon": "search",
+              "typeName": "CreateFormArgs",
+              "args": {
+                "typeName": "CreateFormArgs",
+                "formName": null,
+                "projectName": null,
+                "size": 1,
+                "showOn": "panel",
+                "closeCurrentPanel": false,
+                "parameters": []
+              },
+              "visible": true
+            },
+            "iconMatchers": [],
+            "allowHiding": true,
+            "allowNull": true,
+            "showEditorAlways": false,
+            "dbType": {
+              "type": "object",
+              "columnName": "masrafTip"
+            },
+            "formatType": {
+              "format": "",
+              "type": "label"
+            },
+            "editType": "comboBox",
+            "sourceType": "base64",
+            "enlargeOnClick": false,
+            "imageWidth": 100,
+            "sizeUnit": "pixels",
+            "imageType": "smallImage",
+            "defaultImage": null,
+            "isGeneratedColumn": true,
+            "key": "2"
+          },
+          {
+            "name": "masrafTarihi",
+            "caption": {
+              "tr-TR": "Masraf Tarihi"
+            },
+            "width": 100,
+            "align": "left",
+            "wordWrapEnabled": false,
+            "visible": true,
+            "sorting": {
+              "index": 0,
+              "order": "asc",
+              "enabled": true
+            },
+            "editingEnabled": true,
+            "filtering": {
+              "enabled": false,
+              "operation": "Contains",
+              "value": null
+            },
+            "headerFilterEnabled": false,
+            "summaryTypes": [],
+            "summaryTypePrefixes": [],
+            "editControl": {
+              "name": "masrafTarihi",
+              "controlId": "masrafTarihi",
+              "controlType": "DateTimePicker",
+              "visible": true,
+              "clientVisible": true,
+              "enabled": true,
+              "clientEnabled": true,
+              "style": {
+                "backgroundColor": ""
+              },
+              "containerStyle": {},
+              "customClassName": "",
+              "caption": {
+                "ellipsis": true,
+                "font": {
+                  "bold": false,
+                  "color": "#25241f",
+                  "family": "Source Sans Pro, sans-serif",
+                  "italic": false,
+                  "size": "13",
+                  "strikethrough": false,
+                  "underline": false
+                },
+                "position": "left",
+                "text": {},
+                "visible": true,
+                "size": {
+                  "width": 120
+                },
+                "horizontalAlign": "left",
+                "verticalAlign": "middle",
+                "showColon": false,
+                "markSettings": {
+                  "char": null,
+                  "position": "atFirst",
+                  "style": {}
+                }
+              },
+              "designerProps": {
+                "selected": false,
+                "allowAutoClear": true
+              },
+              "readOnly": false,
+              "ddl": {
+                "name": "masrafTarihi",
+                "allowNull": true,
+                "type": "DateTimeOffset"
+              },
+              "value": null,
+              "text": "",
+              "placeholder": {},
+              "textAlign": "left",
+              "format": "",
+              "showTime": false,
+              "showToday": false,
+              "setTodayAsDefault": false,
+              "allowClear": true,
+              "disableAfter": {
+                "enabled": false,
+                "years": 0,
+                "months": 0,
+                "days": 0
+              },
+              "disableBefore": {
+                "enabled": false,
+                "years": 0,
+                "months": 0,
+                "days": 0
+              }
+            },
+            "defaultValue": null,
+            "isPrimaryKey": false,
+            "autoIncrement": false,
+            "useThousandSeparator": false,
+            "precision": 0,
+            "format": "",
+            "hidingPriority": null,
+            "actionButtonProps": {
+              "name": "",
+              "text": {},
+              "title": {},
+              "icon": "search",
+              "typeName": "CreateFormArgs",
+              "args": {
+                "typeName": "CreateFormArgs",
+                "formName": null,
+                "projectName": null,
+                "size": 1,
+                "showOn": "panel",
+                "closeCurrentPanel": false,
+                "parameters": []
+              },
+              "visible": true
+            },
+            "iconMatchers": [],
+            "allowHiding": true,
+            "allowNull": true,
+            "showEditorAlways": false,
+            "dbType": {
+              "type": "date",
+              "columnName": "masrafTarihi"
+            },
+            "formatType": {
+              "format": "",
+              "type": "label"
+            },
+            "editType": "datePicker",
+            "sourceType": "base64",
+            "enlargeOnClick": false,
+            "imageWidth": 100,
+            "sizeUnit": "pixels",
+            "imageType": "smallImage",
+            "defaultImage": null,
+            "isGeneratedColumn": true,
+            "key": "3"
+          },
+          {
+            "name": "masrafTutari",
+            "caption": {
+              "tr-TR": "Masraf Tutarı"
+            },
+            "width": 100,
+            "align": "left",
+            "wordWrapEnabled": false,
+            "visible": true,
+            "sorting": {
+              "index": 0,
+              "order": "asc",
+              "enabled": true
+            },
+            "editingEnabled": true,
+            "filtering": {
+              "enabled": false,
+              "operation": "Contains",
+              "value": null
+            },
+            "headerFilterEnabled": false,
+            "summaryTypes": [],
+            "summaryTypePrefixes": [
+              {
+                "type": "sum",
+                "suffix": null
+              }
+            ],
+            "editControl": {
+              "name": "masrafTutari",
+              "controlId": "masrafTutari",
+              "controlType": "NumberBox",
+              "visible": true,
+              "clientVisible": true,
+              "enabled": true,
+              "clientEnabled": true,
+              "style": {
+                "backgroundColor": ""
+              },
+              "containerStyle": {},
+              "customClassName": "",
+              "caption": {
+                "ellipsis": true,
+                "font": {
+                  "bold": false,
+                  "color": "#25241f",
+                  "family": "Source Sans Pro, sans-serif",
+                  "italic": false,
+                  "size": "13",
+                  "strikethrough": false,
+                  "underline": false
+                },
+                "position": "left",
+                "text": {},
+                "visible": true,
+                "size": {
+                  "width": 120
+                },
+                "horizontalAlign": "left",
+                "verticalAlign": "middle",
+                "showColon": false,
+                "markSettings": {
+                  "char": null,
+                  "position": "atFirst",
+                  "style": {}
+                }
+              },
+              "designerProps": {
+                "selected": false,
+                "allowAutoClear": true
+              },
+              "readOnly": false,
+              "ddl": {
+                "name": "masrafTutari",
+                "allowNull": true,
+                "type": "Decimal",
+                "size": 19,
+                "precision": 5
+              },
+              "text": "",
+              "placeholder": {},
+              "textAlign": "right",
+              "max": 99999999999999,
+              "step": 1,
+              "precision": 0,
+              "useThousandSeparator": false,
+              "maxLength": 19
+            },
+            "defaultValue": null,
+            "isPrimaryKey": false,
+            "autoIncrement": false,
+            "useThousandSeparator": false,
+            "precision": 0,
+            "format": null,
+            "hidingPriority": null,
+            "actionButtonProps": {
+              "name": "",
+              "text": {},
+              "title": {},
+              "icon": "search",
+              "typeName": "CreateFormArgs",
+              "args": {
+                "typeName": "CreateFormArgs",
+                "formName": null,
+                "projectName": null,
+                "size": 1,
+                "showOn": "panel",
+                "closeCurrentPanel": false,
+                "parameters": []
+              },
+              "visible": true
+            },
+            "iconMatchers": [],
+            "allowHiding": true,
+            "allowNull": true,
+            "showEditorAlways": false,
+            "dbType": {
+              "type": "decimal",
+              "columnName": "masrafTutari"
+            },
+            "formatType": {
+              "format": "",
+              "type": "label"
+            },
+            "editType": "numberBox",
+            "sourceType": "base64",
+            "enlargeOnClick": false,
+            "imageWidth": 100,
+            "sizeUnit": "pixels",
+            "imageType": "smallImage",
+            "defaultImage": null,
+            "isGeneratedColumn": true,
+            "key": "4"
+          },
+          {
+            "name": "masrafAciklama",
+            "caption": {
+              "tr-TR": "Masraf Açıklaması"
+            },
+            "width": 100,
+            "align": "left",
+            "wordWrapEnabled": false,
+            "visible": true,
+            "sorting": {
+              "index": 0,
+              "order": "asc",
+              "enabled": true
+            },
+            "editingEnabled": true,
+            "filtering": {
+              "enabled": false,
+              "operation": "Contains",
+              "value": null
+            },
+            "headerFilterEnabled": false,
+            "summaryTypes": [],
+            "summaryTypePrefixes": [],
+            "editControl": {
+              "name": "masrafAciklama",
+              "controlId": "masrafAciklama",
+              "controlType": "TextBox",
+              "visible": true,
+              "clientVisible": true,
+              "enabled": true,
+              "clientEnabled": true,
+              "style": {
+                "backgroundColor": ""
+              },
+              "containerStyle": {},
+              "customClassName": "",
+              "caption": {
+                "ellipsis": true,
+                "font": {
+                  "bold": false,
+                  "color": "#25241f",
+                  "family": "Source Sans Pro, sans-serif",
+                  "italic": false,
+                  "size": "13",
+                  "strikethrough": false,
+                  "underline": false
+                },
+                "position": "left",
+                "text": {},
+                "visible": true,
+                "size": {
+                  "width": 120
+                },
+                "horizontalAlign": "left",
+                "verticalAlign": "middle",
+                "showColon": false,
+                "markSettings": {
+                  "char": null,
+                  "position": "atFirst",
+                  "style": {}
+                }
+              },
+              "designerProps": {
+                "selected": false,
+                "allowAutoClear": true
+              },
+              "readOnly": false,
+              "ddl": {
+                "name": "masrafAciklama",
+                "allowNull": true,
+                "size": 50,
+                "type": "String"
+              },
+              "text": "",
+              "placeholder": {},
+              "textAlign": "left",
+              "maxLength": 50,
+              "isSecretData": false,
+              "enableMultiLanguageText": false,
+              "multiLanguageText": {},
+              "showCharacterCounter": false
+            },
+            "defaultValue": null,
+            "isPrimaryKey": false,
+            "autoIncrement": false,
+            "useThousandSeparator": false,
+            "precision": 0,
+            "format": null,
+            "hidingPriority": null,
+            "actionButtonProps": {
+              "name": "",
+              "text": {},
+              "title": {},
+              "icon": "search",
+              "typeName": "CreateFormArgs",
+              "args": {
+                "typeName": "CreateFormArgs",
+                "formName": null,
+                "projectName": null,
+                "size": 1,
+                "showOn": "panel",
+                "closeCurrentPanel": false,
+                "parameters": []
+              },
+              "visible": true
+            },
+            "iconMatchers": [],
+            "allowHiding": true,
+            "allowNull": true,
+            "showEditorAlways": false,
+            "dbType": {
+              "type": "string",
+              "columnName": "masrafAciklama"
+            },
+            "formatType": {
+              "format": "",
+              "type": "label"
+            },
+            "editType": "textBox",
+            "sourceType": "base64",
+            "enlargeOnClick": false,
+            "imageWidth": 100,
+            "sizeUnit": "pixels",
+            "imageType": "smallImage",
+            "defaultImage": null,
+            "isGeneratedColumn": true,
+            "key": "5"
+          },
+          {
+            "name": "odencekTutar",
+            "caption": {
+              "tr-TR": "Ödenecek Tutar"
+            },
+            "width": 100,
+            "align": "left",
+            "wordWrapEnabled": false,
+            "visible": true,
+            "sorting": {
+              "index": 0,
+              "order": "asc",
+              "enabled": true
+            },
+            "editingEnabled": true,
+            "filtering": {
+              "enabled": false,
+              "operation": "Contains",
+              "value": null
+            },
+            "headerFilterEnabled": false,
+            "summaryTypes": [],
+            "summaryTypePrefixes": [],
+            "editControl": {
+              "name": "odencekTutar",
+              "controlId": "odencekTutar",
+              "controlType": "NumberBox",
+              "visible": true,
+              "clientVisible": true,
+              "enabled": true,
+              "clientEnabled": true,
+              "style": {
+                "backgroundColor": ""
+              },
+              "containerStyle": {},
+              "customClassName": "",
+              "caption": {
+                "ellipsis": true,
+                "font": {
+                  "bold": false,
+                  "color": "#25241f",
+                  "family": "Source Sans Pro, sans-serif",
+                  "italic": false,
+                  "size": "13",
+                  "strikethrough": false,
+                  "underline": false
+                },
+                "position": "left",
+                "text": {},
+                "visible": true,
+                "size": {
+                  "width": 120
+                },
+                "horizontalAlign": "left",
+                "verticalAlign": "middle",
+                "showColon": false,
+                "markSettings": {
+                  "char": null,
+                  "position": "atFirst",
+                  "style": {}
+                }
+              },
+              "designerProps": {
+                "selected": false,
+                "allowAutoClear": true
+              },
+              "readOnly": false,
+              "ddl": {
+                "name": "odencekTutar",
+                "allowNull": true,
+                "type": "Decimal",
+                "size": 19,
+                "precision": 5
+              },
+              "text": "",
+              "placeholder": {},
+              "textAlign": "right",
+              "max": 99999999999999,
+              "step": 1,
+              "precision": 0,
+              "useThousandSeparator": false,
+              "maxLength": 19
+            },
+            "defaultValue": null,
+            "isPrimaryKey": false,
+            "autoIncrement": false,
+            "useThousandSeparator": false,
+            "precision": 0,
+            "format": null,
+            "hidingPriority": null,
+            "actionButtonProps": {
+              "name": "",
+              "text": {},
+              "title": {},
+              "icon": "search",
+              "typeName": "CreateFormArgs",
+              "args": {
+                "typeName": "CreateFormArgs",
+                "formName": null,
+                "projectName": null,
+                "size": 1,
+                "showOn": "panel",
+                "closeCurrentPanel": false,
+                "parameters": []
+              },
+              "visible": true
+            },
+            "iconMatchers": [],
+            "allowHiding": true,
+            "allowNull": true,
+            "showEditorAlways": false,
+            "dbType": {
+              "type": "decimal",
+              "columnName": "odencekTutar"
+            },
+            "formatType": {
+              "format": "",
+              "type": "label"
+            },
+            "editType": "numberBox",
+            "sourceType": "base64",
+            "enlargeOnClick": false,
+            "imageWidth": 100,
+            "sizeUnit": "pixels",
+            "imageType": "smallImage",
+            "defaultImage": null,
+            "isGeneratedColumn": true,
+            "key": "6"
+          }
+        ],
+        "dataSourceType": "relation"
+      },
+      "viewProperties": {},
+      "id": "masrafBeyanTablo",
+      "type": "DataGrid"
+    },
+    "Form1": {
+      "properties": {
+        "clientEvents": [
+          {
+            "name": "OnBeforeSave",
+            "methodName": "Form1_OnBeforeSave"
+          }
+        ],
+        "caption": {
+          "text": {
+            "tr-TR": "Form1",
+            "en-US": "Form1"
+          }
+        },
+        "toolbarButtons": [
+          {
+            "key": "toolbarSaveButton",
+            "name": "Kaydet",
+            "icon": "save",
+            "enabled": true,
+            "caption": {
+              "tr-TR": "Kaydet",
+              "en-US": "Save"
+            }
+          }
+        ],
+        "name": "Form1",
+        "ddl": {
+          "name": "Form1"
+        },
+        "text": {
+          "tr-TR": "Form1",
+          "en-US": "Form1"
+        },
+        "identityFormatId": 124,
+        "commitId": 1,
+        "identityFormat": "DocumentNum",
+        "controlType": "Form",
+        "controlId": "60b39865-f306-4913-aedf-445ba370a849"
+      },
+      "viewProperties": {},
+      "id": "Form1",
+      "type": "Form"
+    },
+    "TextBox2": {
+      "properties": {
+        "caption": {
+          "font": {
+            "bold": true
+          },
+          "text": {
+            "tr-TR": "Ödeme Yapacak IBAN"
+          }
+        },
+        "name": "TextBox2",
+        "ddl": {
+          "name": "TextBox2"
+        },
+        "commitId": 9,
+        "controlId": "9975d07b-6465-fca6-4982-c769143adc73",
+        "controlType": "TextBox"
+      },
+      "viewProperties": {},
+      "id": "TextBox2",
+      "type": "TextBox"
+    },
+    "pozisyonBilgi": {
+      "properties": {
+        "caption": {
+          "text": {
+            "tr-TR": ""
+          },
+          "visible": false
+        },
+        "metadataType": "Department",
+        "name": "pozisyonBilgi",
+        "ddl": {
+          "name": "UserMetadata2"
+        },
+        "text": "",
+        "commitId": 18,
+        "controlType": "UserMetadata",
+        "controlId": "e6792dab-2505-108c-3e4e-55faea8853e3",
+        "loading": false
+      },
+      "viewProperties": {},
+      "id": "pozisyonBilgi",
+      "type": "UserMetadata"
+    },
+    "Image1": {
+      "properties": {
+        "caption": {
+          "text": {
+            "tr-TR": ""
+          },
+          "size": {
+            "width": 7
+          }
+        },
+        "fileName": "/Bimser-Logo-4-300x101-1.png",
+        "name": "Image1",
+        "ddl": {
+          "name": "Image1"
+        },
+        "commitId": 14,
+        "fileId": "67564",
+        "controlId": "51688419-f3d5-28ca-6cdf-4d9c4753ffb0",
+        "controlType": "Image"
+      },
+      "viewProperties": {},
+      "id": "Image1",
+      "type": "Image"
+    },
+    "Image2": {
+      "properties": {
+        "size": {
+          "height": 85
+        },
+        "caption": {
+          "text": {
+            "tr-TR": ""
+          },
+          "size": {
+            "width": 30,
+            "height": 10
+          }
+        },
+        "fileName": "/Bimser-Logo-4-300x101-1.png",
+        "name": "Image2",
+        "ddl": {
+          "name": "Image2"
+        },
+        "commitId": 35,
+        "customClassName": "hizalaCenter",
+        "isImageLoaded": true,
+        "controlType": "Image",
+        "fileId": "67564",
+        "controlId": "14ba1364-3926-1f21-cbe6-1bccb2516281"
+      },
+      "viewProperties": {},
+      "id": "Image2",
+      "type": "Image"
+    },
+    "toplamMasraf": {
+      "properties": {
+        "enabled": false,
+        "readOnly": true,
+        "caption": {
+          "font": {
+            "bold": true,
+            "size": 21
+          },
+          "text": {
+            "tr-TR": "TOPLAM MASRAF"
+          }
+        },
+        "name": "toplamMasraf",
+        "ddl": {
+          "name": "toplamMasraf"
+        },
+        "commitId": 16,
+        "controlId": "5b27d06e-aa9b-116e-74dc-6b0a63819f7b",
+        "controlType": "NumberBox"
+      },
+      "viewProperties": {},
+      "id": "toplamMasraf",
+      "type": "NumberBox"
+    },
+    "adSoyad": {
+      "properties": {
+        "caption": {
+          "text": {
+            "tr-TR": ""
+          },
+          "visible": false
+        },
+        "ddl": {
+          "name": "UserMetadata1"
+        },
+        "text": "",
+        "name": "adSoyad",
+        "controlId": "93526017-5b0c-a7c8-7cb4-23690093744e",
+        "commitId": 16,
+        "loading": false,
+        "controlType": "UserMetadata"
+      },
+      "viewProperties": {},
+      "id": "adSoyad",
+      "type": "UserMetadata"
+    },
+    "Label1": {
+      "properties": {
+        "caption": {
+          "text": {
+            "tr-TR": "Label1"
+          },
+          "horizontalAlign": "center"
+        },
+        "name": "Label1",
+        "ddl": {
+          "name": "Label1"
+        },
+        "text": {
+          "tr-TR": "HESAP BEYANLARI",
+          "en-US": "Label1"
+        },
+        "font": {
+          "color": "rgb(255, 255, 255)",
+          "size": 14
+        },
+        "commitId": 18,
+        "customClassName": "labelSet1",
+        "controlType": "Label",
+        "controlId": "b70829ce-d5bd-7af9-0d0d-aadf2a1dd3e5"
+      },
+      "viewProperties": {},
+      "id": "Label1",
+      "type": "Label"
+    },
+    "Label2": {
+      "properties": {
+        "caption": {
+          "font": {
+            "color": "rgba(208, 2, 27, 0.68)"
+          },
+          "text": {
+            "tr-TR": "Label2"
+          }
+        },
+        "clientVisible": false,
+        "name": "Label2",
+        "ddl": {
+          "name": "Label2"
+        },
+        "text": {
+          "tr-TR": "Toplam tutar sistem tarafından belirlenen tutardan daha yüksek gelmiştir.Değerlendirilmesi için yöneticinize yönlendirilecektir.",
+          "en-US": "Label2"
+        },
+        "font": {
+          "color": "rgba(245, 166, 35, 0.89)",
+          "size": 17
+        },
+        "commitId": 69,
+        "controlType": "Label",
+        "controlId": "20478553-f83d-7e9e-8d41-92aaa2abfdaf"
+      },
+      "viewProperties": {},
+      "id": "Label2",
+      "type": "Label"
+    }
+  },
+  "views": {
+    "default": {
+      "entities": {
+        "items": {
+          "Column6": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Section4",
+            "items": [
+              "RelatedDocuments1"
+            ],
+            "id": "Column6",
+            "type": "Column"
+          },
+          "RelatedDocuments1": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column6",
+            "items": [],
+            "id": "RelatedDocuments1",
+            "type": "RelatedDocuments"
+          },
+          "Header1": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column1",
+            "items": [],
+            "id": "Header1",
+            "type": "Header"
+          },
+          "DocumentMetadata1": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column5",
+            "items": [],
+            "id": "DocumentMetadata1",
+            "type": "DocumentMetadata"
+          },
+          "DocumentMetadata2": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column5",
+            "items": [],
+            "id": "DocumentMetadata2",
+            "type": "DocumentMetadata"
+          },
+          "Section1": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Form1",
+            "items": [
+              "Column1",
+              "Column2"
+            ],
+            "id": "Section1",
+            "type": "Section"
+          },
+          "Section2": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Form1",
+            "items": [
+              "Column3"
+            ],
+            "id": "Section2",
+            "type": "Section"
+          },
+          "masrafBeyanTablo": {
+            "designerProps": {
+              "selected": true,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column3",
+            "items": [],
+            "id": "masrafBeyanTablo",
+            "type": "DataGrid"
+          },
+          "Form1": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": null,
+            "items": [
+              "Section1",
+              "Section3",
+              "Section2",
+              "Section4"
+            ],
+            "id": "Form1",
+            "type": "Form"
+          },
+          "Section3": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Form1",
+            "items": [
+              "Column4",
+              "Column5"
+            ],
+            "id": "Section3",
+            "type": "Section"
+          },
+          "Section4": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Form1",
+            "items": [
+              "Column6"
+            ],
+            "id": "Section4",
+            "type": "Section"
+          },
+          "TextBox2": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column3",
+            "items": [],
+            "id": "TextBox2",
+            "type": "TextBox"
+          },
+          "pozisyonBilgi": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column4",
+            "items": [],
+            "id": "pozisyonBilgi",
+            "type": "UserMetadata"
+          },
+          "Image2": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column2",
+            "items": [],
+            "id": "Image2",
+            "type": "Image"
+          },
+          "toplamMasraf": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column3",
+            "items": [],
+            "id": "toplamMasraf",
+            "type": "NumberBox"
+          },
+          "Column1": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": "20px 10px 0px 10px"
+              }
+            },
+            "parentId": "Section1",
+            "items": [
+              "Header1"
+            ],
+            "id": "Column1",
+            "type": "Column"
+          },
+          "Column2": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Section1",
+            "items": [
+              "Image2"
+            ],
+            "id": "Column2",
+            "type": "Column"
+          },
+          "adSoyad": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column4",
+            "items": [],
+            "id": "adSoyad",
+            "type": "UserMetadata"
+          },
+          "Column3": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": "40px 10px 0px 10px"
+              }
+            },
+            "parentId": "Section2",
+            "items": [
+              "TextBox2",
+              "Label1",
+              "masrafBeyanTablo",
+              "toplamMasraf",
+              "Label2"
+            ],
+            "id": "Column3",
+            "type": "Column"
+          },
+          "Label1": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column3",
+            "items": [],
+            "id": "Label1",
+            "type": "Label"
+          },
+          "Column4": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Section3",
+            "items": [
+              "adSoyad",
+              "pozisyonBilgi"
+            ],
+            "id": "Column4",
+            "type": "Column"
+          },
+          "Label2": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column3",
+            "items": [],
+            "id": "Label2",
+            "type": "Label"
+          },
+          "Column5": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Section3",
+            "items": [
+              "DocumentMetadata1",
+              "DocumentMetadata2"
+            ],
+            "id": "Column5",
+            "type": "Column"
+          }
+        },
+        "ghostItems": {}
+      },
+      "result": [
+        "Form1"
+      ],
+      "description": null
+    }
+  },
+  "activeView": "default",
+  "version": 10
+}

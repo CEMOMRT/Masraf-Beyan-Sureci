@@ -1,0 +1,49 @@
+{
+  "name": "tipiSorgu",
+  "connectionId": "c914bb72-a9c0-43a9-b1a4-4bf5dfae6f4d",
+  "connectionName": {
+    "tr-TR": "SYNERGY"
+  },
+  "connectionType": 1,
+  "description": {},
+  "id": null,
+  "properties": {
+    "cacheTTL": 60000,
+    "cacheType": "Memory",
+    "enableCache": true,
+    "timeout": 60,
+    "commandText": "select IDmasraf,tipMasraf,maksOdeme,durumMasrafi\r\nfrom E_stj1_masraf_beyan_sureci_Masraf_tipleri_masrafTablosu dg\r\nINNER JOIN E_stj1_masraf_beyan_sureci_Masraf_tipleri_masrafTablosuML dgml on dgml.PARENTID = dg.ID\r\nwhere durumMasrafi = 1 ",
+    "parameters": [],
+    "commandType": 1,
+    "executionType": 3
+  },
+  "structure": {
+    "columns": [
+      {
+        "name": "IDmasraf",
+        "type": 15,
+        "caption": "IDmasraf",
+        "columns": []
+      },
+      {
+        "name": "tipMasraf",
+        "type": 1,
+        "caption": "tipMasraf",
+        "columns": []
+      },
+      {
+        "name": "maksOdeme",
+        "type": 15,
+        "caption": "maksOdeme",
+        "columns": []
+      },
+      {
+        "name": "durumMasrafi",
+        "type": 2,
+        "caption": "durumMasrafi",
+        "columns": []
+      }
+    ],
+    "returnType": 10
+  }
+}

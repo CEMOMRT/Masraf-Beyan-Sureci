@@ -1,0 +1,1068 @@
+{
+  "data": {
+    "perAdSoyad": {
+      "properties": {
+        "caption": {
+          "font": {
+            "bold": true
+          },
+          "text": {
+            "tr-TR": "Personel"
+          }
+        },
+        "ddl": {
+          "name": "perAdSoyad"
+        },
+        "name": "perAdSoyad",
+        "commitId": 13,
+        "controlId": "57f9d9c4-06ed-c9f1-e729-cd6cf0b51622",
+        "controlType": "TextBox"
+      },
+      "viewProperties": {},
+      "id": "perAdSoyad",
+      "type": "TextBox"
+    },
+    "departmanBilgi": {
+      "properties": {
+        "caption": {
+          "text": {
+            "tr-TR": "TextBox2"
+          },
+          "visible": false
+        },
+        "name": "departmanBilgi",
+        "ddl": {
+          "name": "departmanBilgi"
+        },
+        "commitId": 9,
+        "controlId": "5f2a586e-0808-108e-9152-b58ca825ae62",
+        "controlType": "TextBox"
+      },
+      "viewProperties": {},
+      "id": "departmanBilgi",
+      "type": "TextBox"
+    },
+    "masFormNum": {
+      "properties": {
+        "caption": {
+          "font": {
+            "bold": true
+          },
+          "text": {
+            "tr-TR": "Masraf Form Numarası:"
+          }
+        },
+        "name": "masFormNum",
+        "ddl": {
+          "name": "masFormNum"
+        },
+        "commitId": 17,
+        "controlId": "9c9bf1bd-93e4-f791-134d-9238fcf48cf8",
+        "controlType": "TextBox"
+      },
+      "viewProperties": {},
+      "id": "masFormNum",
+      "type": "TextBox"
+    },
+    "Header1": {
+      "properties": {
+        "caption": {
+          "font": {
+            "bold": true,
+            "color": "rgb(74, 103, 226)"
+          },
+          "text": {
+            "tr-TR": "MASRAF ÖDEME FORMU"
+          }
+        },
+        "name": "Header1",
+        "ddl": {
+          "name": "Header1"
+        },
+        "text": {
+          "tr-TR": "MASRAF ÖDEME FORMU",
+          "en-US": "Header1"
+        },
+        "font": {
+          "color": "rgb(74, 76, 226)",
+          "size": 24
+        },
+        "commitId": 23,
+        "controlType": "Header",
+        "title": {
+          "tr-TR": ""
+        },
+        "controlId": "b8f1163f-6d63-7707-6aa6-1b7eb9a5d77c"
+      },
+      "viewProperties": {},
+      "id": "Header1",
+      "type": "Header"
+    },
+    "muhDepartman": {
+      "properties": {
+        "caption": {
+          "text": {
+            "tr-TR": "muhDepartman"
+          },
+          "visible": false
+        },
+        "ddl": {
+          "name": "muhDepartman"
+        },
+        "text": "",
+        "name": "muhDepartman",
+        "controlId": "e0d8cefa-9826-0f1b-633b-48372b9997a1",
+        "commitId": 11,
+        "loading": false,
+        "controlType": "UserMetadata"
+      },
+      "viewProperties": {},
+      "id": "muhDepartman",
+      "type": "UserMetadata"
+    },
+    "muhDocDate": {
+      "properties": {
+        "caption": {
+          "font": {
+            "bold": true
+          },
+          "text": {
+            "tr-TR": "Döküman Tarihi:"
+          }
+        },
+        "ddl": {
+          "name": "muhDocDate"
+        },
+        "metadataType": "CreateDate",
+        "name": "muhDocDate",
+        "controlId": "6696abff-8a86-f8eb-d6d7-7075a627e7f4",
+        "commitId": 15,
+        "controlType": "DocumentMetadata"
+      },
+      "viewProperties": {},
+      "id": "muhDocDate",
+      "type": "DocumentMetadata"
+    },
+    "ibanNo": {
+      "properties": {
+        "caption": {
+          "font": {
+            "bold": true
+          },
+          "text": {
+            "tr-TR": "Ödeme Yapılacak IBAN"
+          }
+        },
+        "name": "ibanNo",
+        "ddl": {
+          "name": "ibanNo"
+        },
+        "commitId": 15,
+        "controlId": "884589e7-b563-ccad-5cb6-22c3ebc47204",
+        "controlType": "TextBox"
+      },
+      "viewProperties": {},
+      "id": "ibanNo",
+      "type": "TextBox"
+    },
+    "muhDocNum": {
+      "properties": {
+        "caption": {
+          "font": {
+            "bold": true
+          },
+          "text": {
+            "tr-TR": "Döküman Numarası:"
+          }
+        },
+        "ddl": {
+          "name": "muhDocNum"
+        },
+        "pullNumberOnStart": true,
+        "name": "muhDocNum",
+        "controlId": "cfb071cc-e2d7-253c-c0b3-fddb13b64663",
+        "commitId": 14,
+        "controlType": "DocumentMetadata",
+        "pullNewNumber": false
+      },
+      "viewProperties": {},
+      "id": "muhDocNum",
+      "type": "DocumentMetadata"
+    },
+    "TBadSoyad": {
+      "properties": {
+        "caption": {
+          "text": {
+            "tr-TR": "TextBox1"
+          },
+          "visible": false
+        },
+        "ddl": {
+          "name": "TBbadSoyad"
+        },
+        "name": "TBadSoyad",
+        "commitId": 16,
+        "controlId": "180806c1-c442-3e2e-b4de-bcd1dde64f5a",
+        "controlType": "TextBox"
+      },
+      "viewProperties": {},
+      "id": "TBadSoyad",
+      "type": "TextBox"
+    },
+    "perDep": {
+      "properties": {
+        "caption": {
+          "font": {
+            "bold": true
+          },
+          "text": {
+            "tr-TR": "Departman"
+          }
+        },
+        "name": "perDep",
+        "ddl": {
+          "name": "perDep"
+        },
+        "commitId": 19,
+        "controlId": "34b33a00-d41a-d5d7-5f17-bd7f2c5bf14e",
+        "controlType": "TextBox"
+      },
+      "viewProperties": {},
+      "id": "perDep",
+      "type": "TextBox"
+    },
+    "Masraf_Odeme_Formu": {
+      "properties": {
+        "clientEvents": [
+          {
+            "name": "OnLoad",
+            "methodName": "Masraf_Odeme_Formu_OnLoad"
+          }
+        ],
+        "caption": {
+          "text": {
+            "tr-TR": "Masraf Ödeme Formu",
+            "en-US": "Masraf_Odeme_Formu",
+            "ru-RU": "Masraf_Odeme_Formu",
+            "az-Latn-AZ": "Masraf_Odeme_Formu"
+          }
+        },
+        "toolbarButtons": [
+          {
+            "key": "toolbarSaveButton",
+            "name": "Kaydet",
+            "icon": "save",
+            "enabled": true,
+            "caption": {
+              "tr-TR": "Kaydet",
+              "en-US": "Save",
+              "ru-RU": "Сохранять",
+              "az-Latn-AZ": "Yadda Saxla"
+            },
+            "validate": false
+          },
+          {
+            "key": "toolbarSaveAsButton",
+            "name": "Farklı Kaydet",
+            "icon": "save-as",
+            "enabled": false,
+            "caption": {
+              "tr-TR": "Farklı Kaydet",
+              "en-US": "Save As",
+              "ru-RU": "Сохранить как",
+              "az-Latn-AZ": "Fərqli Saxla"
+            },
+            "validate": false
+          }
+        ],
+        "name": "Masraf_Odeme_Formu",
+        "ddl": {
+          "name": "Masraf_Odeme_Formu"
+        },
+        "text": {
+          "tr-TR": "Masraf_Odeme_Formu",
+          "en-US": "Masraf_Odeme_Formu",
+          "ru-RU": "Masraf_Odeme_Formu",
+          "az-Latn-AZ": "Masraf_Odeme_Formu"
+        },
+        "identityFormatId": 125,
+        "commitId": 12,
+        "identityFormat": "MOF",
+        "controlType": "Form",
+        "controlId": "329a01d7-4dc4-4652-b979-8207264e62f6"
+      },
+      "viewProperties": {},
+      "id": "Masraf_Odeme_Formu",
+      "type": "Form"
+    },
+    "Image1": {
+      "properties": {
+        "size": {
+          "height": 100,
+          "width": 300
+        },
+        "caption": {
+          "text": {
+            "tr-TR": "Image1"
+          },
+          "visible": false
+        },
+        "fileName": "/Bimser-Logo-4-300x101-1.png",
+        "name": "Image1",
+        "ddl": {
+          "name": "Image1"
+        },
+        "commitId": 36,
+        "customClassName": "hizalaSag",
+        "isImageLoaded": false,
+        "controlType": "Image",
+        "fileId": "67564",
+        "controlId": "0cc67835-bb66-990a-1c11-7557b9e97e3d"
+      },
+      "viewProperties": {},
+      "id": "Image1",
+      "type": "Image"
+    },
+    "Divider1": {
+      "properties": {
+        "name": "Divider1",
+        "controlId": "9a5b5ecb-97a8-0365-d618-51b784819d8a",
+        "controlType": "Divider",
+        "caption": {
+          "text": {
+            "tr-TR": "Divider1"
+          }
+        },
+        "ddl": {
+          "name": "Divider1"
+        }
+      },
+      "viewProperties": {},
+      "id": "Divider1",
+      "type": "Divider"
+    },
+    "Divider2": {
+      "properties": {
+        "name": "Divider2",
+        "controlId": "c460331a-03a5-baa9-d9c4-ee3c53254d12",
+        "controlType": "Divider",
+        "caption": {
+          "text": {
+            "tr-TR": "Divider2"
+          }
+        },
+        "ddl": {
+          "name": "Divider2"
+        }
+      },
+      "viewProperties": {},
+      "id": "Divider2",
+      "type": "Divider"
+    },
+    "odencekTutar": {
+      "properties": {
+        "caption": {
+          "font": {
+            "bold": true
+          },
+          "text": {
+            "tr-TR": "Ödenecek Tutar"
+          }
+        },
+        "name": "odencekTutar",
+        "ddl": {
+          "name": "odencekTutar"
+        },
+        "commitId": 16,
+        "controlId": "4322ffac-0025-36f3-236e-68c0a7c1af09",
+        "controlType": "NumberBox"
+      },
+      "viewProperties": {},
+      "id": "odencekTutar",
+      "type": "NumberBox"
+    },
+    "TextBoxID": {
+      "properties": {
+        "caption": {
+          "text": {
+            "tr-TR": "id bilgi"
+          }
+        },
+        "name": "TextBoxID",
+        "ddl": {
+          "name": "TextBoxID"
+        },
+        "visible": false,
+        "commitId": 13,
+        "controlId": "2c7063d6-6292-8bdc-aa10-b9c9dcc0d028",
+        "controlType": "TextBox"
+      },
+      "viewProperties": {},
+      "id": "TextBoxID",
+      "type": "TextBox"
+    },
+    "muhAdSoyad": {
+      "properties": {
+        "caption": {
+          "text": {
+            "tr-TR": "muhAdSoyad"
+          },
+          "visible": false
+        },
+        "ddl": {
+          "name": "muhAdSoyad"
+        },
+        "text": "",
+        "name": "muhAdSoyad",
+        "controlId": "44445e3b-eda4-b3af-5fff-dfecd92ed2d6",
+        "commitId": 12,
+        "loading": false,
+        "controlType": "UserMetadata"
+      },
+      "viewProperties": {},
+      "id": "muhAdSoyad",
+      "type": "UserMetadata"
+    },
+    "Button1": {
+      "properties": {
+        "clientEvents": [
+          {
+            "name": "OnClick",
+            "methodName": "Button1_OnClick"
+          }
+        ],
+        "caption": {
+          "text": {
+            "tr-TR": "Button1"
+          }
+        },
+        "name": "Button1",
+        "ddl": {
+          "name": "Button1"
+        },
+        "text": {
+          "tr-TR": "GÖSTER",
+          "en-US": "Button1"
+        },
+        "commitId": 15,
+        "customClassName": "hizalaSol",
+        "controlType": "Button",
+        "controlId": "8670de60-b921-1623-f3b0-b799395af8e7"
+      },
+      "viewProperties": {},
+      "id": "Button1",
+      "type": "Button"
+    }
+  },
+  "views": {
+    "default": {
+      "entities": {
+        "items": {
+          "perAdSoyad": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column9",
+            "items": [],
+            "id": "perAdSoyad",
+            "type": "TextBox"
+          },
+          "Column6": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Section4",
+            "items": [
+              "masFormNum"
+            ],
+            "id": "Column6",
+            "type": "Column"
+          },
+          "departmanBilgi": {
+            "designerProps": {
+              "selected": true,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column3",
+            "items": [],
+            "id": "departmanBilgi",
+            "type": "TextBox"
+          },
+          "Column7": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Section4",
+            "items": [
+              "Button1"
+            ],
+            "id": "Column7",
+            "type": "Column"
+          },
+          "Column8": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Section5",
+            "items": [
+              "Divider2"
+            ],
+            "id": "Column8",
+            "type": "Column"
+          },
+          "masFormNum": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column6",
+            "items": [],
+            "id": "masFormNum",
+            "type": "TextBox"
+          },
+          "Column9": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Section6",
+            "items": [
+              "perAdSoyad"
+            ],
+            "id": "Column9",
+            "type": "Column"
+          },
+          "Header1": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column1",
+            "items": [],
+            "id": "Header1",
+            "type": "Header"
+          },
+          "muhDocDate": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column4",
+            "items": [],
+            "id": "muhDocDate",
+            "type": "DocumentMetadata"
+          },
+          "ibanNo": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column11",
+            "items": [],
+            "id": "ibanNo",
+            "type": "TextBox"
+          },
+          "Section1": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Masraf_Odeme_Formu",
+            "items": [
+              "Column1",
+              "Column2"
+            ],
+            "id": "Section1",
+            "type": "Section"
+          },
+          "Section2": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Masraf_Odeme_Formu",
+            "items": [
+              "Column3",
+              "Column4"
+            ],
+            "id": "Section2",
+            "type": "Section"
+          },
+          "Section3": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Masraf_Odeme_Formu",
+            "items": [
+              "Column5"
+            ],
+            "id": "Section3",
+            "type": "Section"
+          },
+          "muhDocNum": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column4",
+            "items": [],
+            "id": "muhDocNum",
+            "type": "DocumentMetadata"
+          },
+          "TBadSoyad": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column3",
+            "items": [],
+            "id": "TBadSoyad",
+            "type": "TextBox"
+          },
+          "Section4": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Masraf_Odeme_Formu",
+            "items": [
+              "Column6",
+              "Column7"
+            ],
+            "id": "Section4",
+            "type": "Section"
+          },
+          "Section5": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Masraf_Odeme_Formu",
+            "items": [
+              "Column8"
+            ],
+            "id": "Section5",
+            "type": "Section"
+          },
+          "Section6": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Masraf_Odeme_Formu",
+            "items": [
+              "Column9",
+              "Column10"
+            ],
+            "id": "Section6",
+            "type": "Section"
+          },
+          "perDep": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column10",
+            "items": [],
+            "id": "perDep",
+            "type": "TextBox"
+          },
+          "Section7": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Masraf_Odeme_Formu",
+            "items": [
+              "Column11"
+            ],
+            "id": "Section7",
+            "type": "Section"
+          },
+          "Masraf_Odeme_Formu": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": null,
+            "items": [
+              "Section1",
+              "Section2",
+              "Section3",
+              "Section4",
+              "Section5",
+              "Section6",
+              "Section7"
+            ],
+            "id": "Masraf_Odeme_Formu",
+            "type": "Form"
+          },
+          "Column10": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Section6",
+            "items": [
+              "perDep"
+            ],
+            "id": "Column10",
+            "type": "Column"
+          },
+          "Column11": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Section7",
+            "items": [
+              "ibanNo",
+              "odencekTutar",
+              "TextBoxID"
+            ],
+            "id": "Column11",
+            "type": "Column"
+          },
+          "Image1": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column2",
+            "items": [],
+            "id": "Image1",
+            "type": "Image"
+          },
+          "Divider1": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column5",
+            "items": [],
+            "id": "Divider1",
+            "type": "Divider"
+          },
+          "Divider2": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column8",
+            "items": [],
+            "id": "Divider2",
+            "type": "Divider"
+          },
+          "odencekTutar": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column11",
+            "items": [],
+            "id": "odencekTutar",
+            "type": "NumberBox"
+          },
+          "TextBoxID": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column11",
+            "items": [],
+            "id": "TextBoxID",
+            "type": "TextBox"
+          },
+          "Column1": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Section1",
+            "items": [
+              "Header1"
+            ],
+            "id": "Column1",
+            "type": "Column"
+          },
+          "Column2": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Section1",
+            "items": [
+              "Image1"
+            ],
+            "id": "Column2",
+            "type": "Column"
+          },
+          "Column3": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Section2",
+            "items": [
+              "TBadSoyad",
+              "departmanBilgi"
+            ],
+            "id": "Column3",
+            "type": "Column"
+          },
+          "Column4": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Section2",
+            "items": [
+              "muhDocNum",
+              "muhDocDate"
+            ],
+            "id": "Column4",
+            "type": "Column"
+          },
+          "Button1": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Column7",
+            "items": [],
+            "id": "Button1",
+            "type": "Button"
+          },
+          "Column5": {
+            "designerProps": {
+              "selected": false,
+              "locked": false,
+              "layout": {
+                "width": null,
+                "visible": true,
+                "clientVisible": true,
+                "padding": null
+              }
+            },
+            "parentId": "Section3",
+            "items": [
+              "Divider1"
+            ],
+            "id": "Column5",
+            "type": "Column"
+          }
+        },
+        "ghostItems": {}
+      },
+      "result": [
+        "Masraf_Odeme_Formu"
+      ],
+      "description": null
+    }
+  },
+  "activeView": "default",
+  "version": 10
+}
